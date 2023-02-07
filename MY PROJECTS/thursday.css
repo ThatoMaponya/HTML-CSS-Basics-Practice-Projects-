@@ -1,0 +1,31 @@
+
+.container{
+  background-color: gray;
+}
+.welcome{
+  background-color: white;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.practice{
+  background-color: black;
+  color: white;
+  padding: 50px 50px;
+  margin: 0px;
+}
+.box{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 150px;
+  width: 120px;
+  border: 3px solid red;
+  background-color: black;
+  color: white;
+  padding: 30px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
